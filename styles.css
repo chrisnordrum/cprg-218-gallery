@@ -3,3 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #cccccc; /* The page background colour */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* The site uses a sans-serif font */
+}
+
+/* image centered in its container */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, li, footer {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #120323; /* header background color */
+}
+
+h1 {
+    color: #97bf04; /* company name */
+}
+
+li {
+    margin: 1rem auto;
+    border: 0.125rem solid #97bf04; /* button border colour */
+    width: 95%; /* 95% of the screen width */
+    background-color: #d9043d; /* navigation background colour */
+}
+
+a {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 2.5rem;
+}
+
+h2 {
+    margin-bottom: 2.5rem;
+}
+
+#gallery-container {
+    display: grid;
+    gap: 1rem;
+}
+
+figure {
+    max-width: 100%;
+    padding: 2rem;
+    background-color: white;
+}
+
+figure img {
+    border-bottom: 10px solid #97bf04; /* image bottom border (10px) */
+    width: 100%; /* image scales according to the size of its container */
+    max-width: 650px; /* image scales up to 650px in width */
+}
+
+figcaption h3 {
+    margin: 1rem 0;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #d9043d; /* footer background colour */
+    color: white;
+}
