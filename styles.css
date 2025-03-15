@@ -101,7 +101,7 @@ footer {
         display: flex;
         justify-content: center;
         padding: 1rem;
-        background-color: #d9043d;
+        background-color: #d9043d; /* navigation background colour */
     }
     /* The photo gallery should be two columns */
     #gallery-container {
