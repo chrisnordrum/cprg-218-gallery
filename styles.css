@@ -102,6 +102,9 @@ footer {
         padding: 1rem;
         background-color: #d9043d; /* navigation background colour */
     }
+    nav a {
+        margin: 0 1rem;
+    }
     /* The photo gallery should be two columns */
     #gallery-container {
         grid-template-columns: 1fr 1fr;
