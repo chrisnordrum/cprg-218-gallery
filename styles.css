@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* | GENERAL STYLING */
+
 body {
     background-color: #cccccc; /* The page background colour */
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* The site uses a sans-serif font */
@@ -78,6 +80,8 @@ footer {
     color: white;
 }
 
+/* | iPHONE ONLY STYLING */
+
 @media screen and (max-width: 767px) {
     li {
         margin: 1rem auto;
@@ -90,6 +94,8 @@ footer {
         padding: 1rem;
     } 
 }
+
+/* | iPAD AND LARGER STYLING */
 
 @media screen and (min-width: 768px) {
     header {
@@ -115,6 +121,8 @@ footer {
         grid-column: span 2;
     }
 }
+
+/* | LARGE SCREENS STYLING */
 
 @media screen and (min-width: 1000px) {
     /* The photo gallery should be three columns */
